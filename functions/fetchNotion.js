@@ -10,12 +10,12 @@ exports.handler = async function (event, context) {
     try {
         const repsonse = await notion.databases.query({
             database_id: NOTION_DB,
-            "filter": {
-                "property": "Status",
-                "status": {
-                  "equals": "Done"
-                }
-              }
+            // "filter": {
+            //     "property": "Status",
+            //     "status": {
+            //       "equals": "Done"
+            //     }
+            // }
         });
         return {
             statusCode: 200,

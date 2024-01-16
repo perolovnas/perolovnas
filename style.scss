@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.posts-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .post {
+        width: calc(25% - 2rem);
+        box-shadow: 0 0 0 1px black;
+
+        img {
+            width: 100%;
+        }
+    }
+}

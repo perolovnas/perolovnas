@@ -1,3 +1,21 @@
-img {
-  width: 200px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
 }
+
+.posts-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.posts-wrapper .post {
+  width: calc(25% - 2rem);
+  box-shadow: 0 0 0 1px black;
+}
+.posts-wrapper .post img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
